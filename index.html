@@ -13,7 +13,7 @@
             <li>
                 <img src="img/logo_site_project2.png" height="100" width="100" alt="logo_entreprise">
             </li>
-            <li class="nav-item mt-50">
+            <li class="nav-item">
               <a class="nav-link " aria-current="page" href="#">SERVICES</a>
             </li>
             <li class="nav-item">
@@ -26,9 +26,11 @@
               <a class="nav-link">PARTENAIRES</a>
             </li>
         </div>
-        <div>
-             <img src="img/maintenancier.jpg"   class="home" alt="home">
-             <h1 class="position-relative bg-secondary"> <p><span>M.I.,</span>POUR VOUS APPORTEZ <span>DES</span> <br> SOLUTIONS INNOVENTES</p></h1>
+        <div class="home">
+            <h1 class="position-relative bg-light"> 
+                <p><span class="red">M.I.,</span>POUR VOUS APPORTEZ <span class="red">DES</span> <br> SOLUTIONS INNOVENTES</p>
+            </h1>
+               
         </div>
     </ul>
      <h2>NOUS ASSISTONS LES ENTREPRISES ET LES PARTICULIERS</h2>
@@ -97,7 +99,7 @@
     <h2 id="title_temoignage">Témoignages</h2>
     <div class="temoignage_bloc">
         <div class="temoignage_bloc1">
-            <div class="temoignage bg-primary">
+            <div class="temoignage">
                 <div class="temoin1">
                     <div class="vincent">
                         <div class="homme_heureur">
@@ -116,7 +118,7 @@
                     
                 </div>
             </div>
-            <div class="temoignage bg-primary">
+            <div class="temoignage">
                 <div class="temoin1">
                     <div class="vincent">
                         <div class="homme_heureur">
@@ -132,7 +134,7 @@
                     
                 </div>
             </div>
-            <div class="temoignage bg-primary">
+            <div class="temoignage">
                 <div class="temoin1">
                     <div class="vincent">
                         <div class="homme_heureur">
@@ -152,7 +154,7 @@
             </div>
         </div>
         <div class="temoignage_bloc1">
-            <div class="temoignage bg-primary">
+            <div class="temoignage">
                 <div class="temoin1">
                     <div class="vincent">
                         <div class="homme_heureur">
@@ -169,7 +171,7 @@
                     
                 </div>
             </div>
-            <div class="temoignage bg-primary">
+            <div class="temoignage">
                 <div class="temoin1">
                     <div class="vincent">
                         <div class="homme_heureur">
@@ -185,8 +187,8 @@
                     
                 </div>
             </div>
-            <div class="temoignage bg-primary">
-                <div class="temoin1">
+            <div class="temoignage">
+                <div class="temoin1 mt-3">
                     <div class="vincent">
                         <div class="homme_heureur">
                             <img src="img/photographe.png">
@@ -203,73 +205,147 @@
             </div>
         </div>
     </div>
-    <div>
-        <button> <p>Voir plus</p></button>
-    </div>
-    <h2>Nous contacté</h2>
-        <div class="image_blue">
-           <div class="our_contacts">
-               <p>Maintenance Info</p>
-               <p>Situé à lomé sur le Boulevard du 30Août</p>
-               <p>Localité: Adidogomé</p>
-               <p>Quartier: Ave Maria</p>
-                <div  class="whatsapp">
+    <button class="first_btn"><p>Voir plus</p></button>
+    <h2>Nous contacter</h2>
+    <div class="image_blue">
+        <div class="our_contacts">
+            <p>Maintenance Info</p>
+            <p>Situé à lomé sur le Boulevard du 30Août</p>
+            <p>Localité: Adidogomé</p>
+            <p>Quartier: Ave Maria</p>
+            <div  class="whatsapp">
+                <div>
+                    <img src="img/télephone.png" alt="">
+                </div>
+                <div>
+                    <p>+228 91 62 24 97</p>
+                </div>
+            </div>
+            <div class="whatsapp">
+                <div>
+                    <img src="img/whatsapp .png" alt="">
+                </div>
+                <div>
+                    <p>+228 91 62 24 97</p>
+                </div>
+            </div>
+            <div  class="whatsapp">
+                <div>
+                    <img src="img/message.png" alt="">
+                </div>
+                <div>
+                    <p>sewendatchaou@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <form>
+                <div class="contact_first_line">
                     <div>
-                        <img src="img/télephone.png" alt="">
+                        <label for="name">Nom</label> <br>
+                        <input type="text" size="40">
                     </div>
                     <div>
-                        <p>+228 91 62 24 97</p>
+                        <label for="name">Prénom</label> <br>
+                        <input type="text" size="40">
+                    </div>
+                </div> <div class="contact_first_line">
+                    <div>
+                        <label for="name">Mail</label> <br>
+                        <input type="text" size="40">
+                    </div>
+                    <div>
+                        <label for="name">N° télephone</label> <br>
+                        <input type="text" size="40">
                     </div>
                 </div>
-                <div class="whatsapp">
-                    <div>
-                        <img src="img/whatsapp .png" alt="">
-                    </div>
-                    <div>
-                        <p>+228 91 62 24 97</p>
-                    </div>
+                <div>
+                    <label for="name">Mot de passe</label> <br>
+                    <input type="text" size="40"> 
+                </div> 
+                <div>
+                    <label for="name">Votre message</label> <br>
+                    <input type="text" size="85">
                 </div>
-                <div  class="whatsapp">
-                    <div>
-                        <img src="img/message.png" alt="">
-                    </div>
-                    <div>
-                        <p>sewendatchaou@gmail.com</p>
-                    </div>
-                </div>
-           </div>
-           <div>
-               <form>
-                    <div class="contact_first_line">
-                        <div>
-                            <label for="name">Nom</label> <br>
-                            <input type="text" size="40">
-                        </div>
-                        <div>
-                            <label for="name">Prénom</label> <br>
-                            <input type="text" size="40">
-                        </div>
-                    </div> <div class="contact_first_line">
-                        <div>
-                            <label for="name">Mail</label> <br>
-                            <input type="text" size="40">
-                        </div>
-                        <div>
-                            <label for="name">N° télephone</label> <br>
-                            <input type="text" size="40">
-                        </div>
-                    </div>
-                    <div>
-                        <label for="name">Mot de passe</label> <br>
-                        <input type="text" size="40"> 
-                    </div> 
-                    <div>
-                        <label for="name">Votre message</label> <br>
-                        <input type="text" size="85">
-                    </div>
                </form>
-               <button><p>Envoyé</p></button>
+               <button class="second_btn"><p>Envoyé</p></button>
            </div>
         </div>
+        <h2 class="title_partenaires">Partenaires</h2>
+        <div id="partenaires">
+            <div>
+                <img src="img/asecna-logo 1.png" alt="">
+            </div> <div>
+                <img src="img/energy generation logo.png" alt="">
+            </div> <div>
+                <img src="img/Dclic 1 logo.png" alt="">
+            </div> <div>
+                <img src="img/ISG 1 logo.png" alt="">
+            </div>
+        </div>
+        <fieldset>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6659910401113!2d1.1790330144479584!3d6.175450595529141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102159c5fc7516c9%3A0x92312f8f4d308797!2sFINAM%20adidogom%C3%A9!5e0!3m2!1sfr!2stg!4v1652797672830!5m2!1sfr!2stg" height="450" style="border:2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </fieldset>
+        <footer>
+            <div id="reseaux_sociaux" >
+                <div >
+                    <div class="tous_reseaux">
+                        <div class="reseau3">
+                            <div>
+                                <img src="img/facebook_icone.png" height="45">
+                            </div>
+                            <p>suivez nous sur <br> facebook</p> 
+                        </div>
+                        <div class="reseau3">
+                            <div>
+                                <img src="img/Twitter_Bird 1.png" height="50">
+                            </div>
+                            <p>suivez nous sur <br> twitter</p>
+                        </div>
+                       <div class="reseau3">
+                        <div>
+                            <img src="img/Linkedin-icone.png" height="32">
+                        </div>
+                        <p>suivez nous sur <br> Linkedin</p>
+                       </div>
+                    </div>
+                    <div class="copyrigth">
+                        <img src="img/Logo_copyrith.png" class="Logo_copyrith" width="50">
+                        <div>
+                            <p>maintenance info 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_right">
+                    <div>
+                        <p>Installation  Maintenance  Conseils</p>
+                    </div>
+                    <div class="bottom_contact">
+                        <div>
+                            <img src="img/message.png" alt="message">
+                        </div>
+                        <div>
+                            <p>sewendatchaou@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="bottom_contact">
+                        <div>
+                            <img src="img/whatsapp .png" alt="whatsapp">
+                        </div>
+                        <div>
+                            <p>00228 91 62 24 97</p>
+                        </div> 
+                    </div>
+                    <div class="bottom_contact">
+                        <div>
+                          <img src="img/télephone.png" alt="télephone">
+                        </div>
+                        <div>
+                            <p>00228 91 62 24 97</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </footer>
   </body>
 </html>
