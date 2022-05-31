@@ -34,6 +34,13 @@ h1 p{
   justify-content: space-around;
 }
  
+.title_gestion_globale p{
+    margin-top: 35px;
+}
+
+.conseil-informatique-picto2{
+    margin-top: 40px;
+}
 .our_services{
     display: flex;
     justify-content: space-around;
@@ -44,6 +51,8 @@ h1 p{
 h2{
     text-align: center;
     margin-top: 50px;
+    color: rgb(19, 126, 226);
+    text-decoration: underline;
 }
 .services p{
     text-align: center;
@@ -53,12 +62,27 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 2px solid black;
+    border: 2px solid rgb(1, 97, 38);
     border-radius: 20px;
     margin-top: 50px;
-    width: 80%;
+    width: 90%;
     justify-content: center;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.part_installation p{
+    text-align: justify;
+    padding: 0px 20px;
+    font-size: 25px;
+}
+
+.part_gestion_globale p{
+    font-size: 25px;
+}
+
+.part-depannage p{
+    font-size: 25px;
 }
 
 .image_depannage{
@@ -183,6 +207,9 @@ iframe{
     margin-top: 20px;
 }
 
+.position-fixed{
+    width: 100%;
+}
 #reseaux_sociaux{
     display: flex;
     justify-content: space-around;
@@ -249,16 +276,39 @@ iframe{
     form{
     margin-top: 6px;
     }
+}
+@media all and (max-width: 912px) {
+    .position-relative{
+        position: relative;
+        text-align: center;
+        width: 40rem;
+        top: 400px;
+        left: 128px;
+        height: 19vh;
+        opacity: 0.7;
+    }
+}    
 
-    @media all and (max-width: 912px) {
-        .position-relative{
-            position: relative;
-            text-align: center;
-            width: 40rem;
-            top: 400px;
-            left: 128px;
-            height: 19vh;
-            opacity: 0.7;
-        }
-    }    
+@media all and (max-width: 600px){
+    .position-relative{
+        left: 70px;
+        width: 20rem;
+    }
+
+    .first_btn{
+        margin-left: 125px;
+    }
+
+    .second_btn{
+        margin-left: 66px;
+    }
+
+    input{
+        width: 150px;
+        margin: 0px;
+    }
+
+    .position-fixed{
+        flex-wrap: wrap;
+    }
 }
