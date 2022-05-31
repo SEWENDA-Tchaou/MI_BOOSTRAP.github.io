@@ -233,6 +233,12 @@ iframe{
     background-color: white;
 }
 
+@media all and (max-width: 3000px){
+    .position-relative{
+        background-color: none;
+    }
+}
+
 @media all and (max-width: 1080px) {
     .position-relative{
         left: 637px;
