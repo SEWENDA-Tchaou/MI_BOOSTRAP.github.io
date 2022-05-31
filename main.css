@@ -34,6 +34,10 @@ h1 p{
   justify-content: space-around;
 }
  
+
+.Logo_copyrith{
+    margin-right: 20px;
+}
 .title_gestion_globale p{
     margin-top: 35px;
 }
@@ -284,10 +288,21 @@ iframe{
         width: 40rem;
         top: 400px;
         left: 128px;
-        height: 19vh;
+        height: 22vh;
         opacity: 0.7;
     }
+
+    h1 p{
+        padding-top: 45px;
+        margin-right: 56px;
+    }
 }    
+
+@media all and (max-width: 800px){
+    .position-relative{
+        left: 0px;
+    }
+}
 
 @media all and (max-width: 600px){
     .position-relative{
@@ -310,5 +325,13 @@ iframe{
 
     .position-fixed{
         flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width: 597px){
+    .position-relative{
+        left: 36px;
+        width: 32rem;
+        height: 158px;
     }
 }
